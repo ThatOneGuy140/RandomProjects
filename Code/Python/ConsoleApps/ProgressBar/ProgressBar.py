@@ -16,9 +16,9 @@ bars = [
 
 ]
 
-def bar(var,wait):
+def bar(var,wait,opt=""):
     try:
-        print(bars[var])
+        print(bars[var],opt)
         time.sleep(wait)
     except:
         print("Error: Inputed variable is higher than 10 or lower than 0")

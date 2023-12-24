@@ -3,7 +3,7 @@ import ProgressBar as pb
 var = 0
 
 while True:
-    pb.bar(var,1)
+    pb.bar(var,1,"Loading")
     var += 1
 
     pb.clear()
